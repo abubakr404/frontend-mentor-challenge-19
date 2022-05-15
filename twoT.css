@@ -1,0 +1,55 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+@media(min-width:576px) and (max-width:767px){
+    .v-xs {
+        display: block !important;
+    }
+    .h-xs {
+        display: none !important;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .v-s {
+        display: block !important;
+    }
+    .h-s {
+        display: none !important;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .v-m {
+        display: block !important;
+    }
+    .h-m {
+        display: none !important;
+    }
+}
+@media(min-width:1200px){
+    .v-l {
+        display: block !important;
+    }
+    .h-l {
+        display: none !important;
+    }
+}
+.v-l,
+.v-m,
+.v-s,
+.v-xs {
+    display: none;
+}
+.h1 {
+    font-size:2em
+}
+.h2 {
+    font-size:1.5em
+}
+.h3 {
+    font-size:1.17em
+}
